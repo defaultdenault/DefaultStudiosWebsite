@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Default Studios :: Guestbook</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="shell">
+
+  <div id="banner">
+    <img class="logo" src="logo.svg" alt="Default Studios logo">
+    <div class="wordmark">
+      <h1>DEFAULT STUDIOS</h1>
+      <div class="tagline">&quot;We ship it when it is done.&quot; &nbsp;-&nbsp; Est. in a bedroom</div>
+    </div>
+  </div>
+
+  <marquee class="topbar" scrollamount="4">
+    *** SIGN MY GUESTBOOK ***  SIGN IN WITH GITHUB TO POST  ***  BE NICE  ***  NO FLAMING  ***
+  </marquee>
+
+  <div id="columns">
+
+    <div id="nav">
+      <h3>Navigation</h3>
+      <a class="navbtn" href="index.html">Home</a>
+      <a class="navbtn" href="about.html">About Us</a>
+      <a class="navbtn" href="projects.html">Projects</a>
+      <a class="navbtn here" href="guestbook.html">Guestbook</a>
+      <a class="navbtn" href="contact.html">Contact</a>
+
+      <div class="navbox">
+        <b>VISITORS</b><br><br>
+        <span class="counter" id="hitcounter"></span>
+      </div>
+
+      <div class="navbox">
+        <b>HOUSE RULES</b><br>
+        Be decent.<br>
+        No spam.<br>
+        No spoilers.<br>
+        <i>Posts are public.</i>
+      </div>
+    </div>
+
+    <div id="content">
+
+      <h2>Sign the Guestbook!</h2>
+
+      <p>
+        Leave a note, say hello, tell us how your run went. Entries are posted with your
+        <b>GitHub account</b> &mdash; hit the sign-in button in the box below, and your message
+        is saved permanently as a real discussion post on our repository. Everyone can read it,
+        and you can edit or delete your own entry at any time.
+      </p>
+
+      <div class="panel alert" style="font-size:13px;">
+        <b>&#9432; First time?</b> You will need a free GitHub account, and the sign-in will ask
+        permission for the <i>giscus</i> app to post on your behalf. It cannot read anything
+        private &mdash; it only writes comments to this one repository. We never see your password.
+      </div>
+
+      <hr class="fancy">
+
+      <!-- giscus mounts here -->
+      <div id="guestbook-mount"></div>
+
+      <noscript>
+        <div class="panel">
+          <b>JavaScript is switched off.</b> The guestbook needs it in order to talk to GitHub.
+          You can still reach us on the <a href="contact.html">contact page</a>.
+        </div>
+      </noscript>
+
+      <p style="text-align:center;font-size:12px;color:#6d838b;margin-top:20px;">
+        Would rather not post in public? Head to the <a href="contact.html">contact page</a>.
+      </p>
+
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="webbadges">
+      <span>MADE WITH NOTEPAD</span>
+      <span>HTML 5 &#10003;</span>
+      <span>POWERED BY GITHUB</span>
+      <span>ANY BROWSER</span>
+    </div>
+    Copyright &copy; Default Studios. All rights reserved.<br>
+    <span class="mailhere">defaultstudiossupport (at) gmail (dot) com</span>
+  </div>
+
+</div>
+
+<script src="guestbook-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

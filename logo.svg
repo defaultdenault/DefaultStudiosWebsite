@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="dgrad" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0%" stop-color="#7fd4e6"/>
+      <stop offset="55%" stop-color="#5bc0dd"/>
+      <stop offset="100%" stop-color="#1f6fbf"/>
+    </linearGradient>
+    <linearGradient id="sgrad" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#e8402a"/>
+      <stop offset="45%" stop-color="#e8402a"/>
+      <stop offset="70%" stop-color="#f0568f"/>
+      <stop offset="100%" stop-color="#e8402a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="#dde4de"/>
+
+  <!-- extruded shadow layer -->
+  <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="48" y="350" font-size="330" fill="#b9cdd6">D</text>
+    <text x="272" y="420" font-size="300" fill="#d09aa2">s</text>
+  </g>
+
+  <!-- face layer -->
+  <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="58" y="344" font-size="330" fill="url(#dgrad)">D</text>
+    <text x="280" y="414" font-size="300" fill="url(#sgrad)">s</text>
+  </g>
+</svg>
