@@ -321,3 +321,34 @@ table.grid tr:nth-child(even) td { background: #f3f8f5; }
   #nav { border-bottom: 3px groove #9fb4ae; }
   #banner h1 { font-size: 28px; }
 }
+
+/* ---------- itch.io purchase widget ---------- */
+
+.itchbox { margin: 16px 0 4px 0; text-align: center; }
+
+.itchbox .itchlabel {
+  display: inline-block;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2b4a55;
+  background: #dde4de;
+  border: 2px outset #b9cdd6;
+  padding: 3px 10px;
+  margin-bottom: 8px;
+}
+
+/* The widget is a fixed 552px wide, so let it scroll sideways on a
+   narrow screen rather than getting clipped by the content column. */
+.itchbox .itchscroll {
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.itchbox iframe {
+  display: block;
+  margin: 0 auto;
+  border: 3px ridge #b9cdd6 !important;
+  background: #fff;
+}
